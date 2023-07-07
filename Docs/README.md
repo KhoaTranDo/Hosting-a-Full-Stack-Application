@@ -16,27 +16,28 @@
 
 ```
 ### Endpoint
-- S3 for Front-end url: [Front-end](http://khoatda-udagram.s3-website-us-east-1.amazonaws.com/)
-- Elastic Beanstalk for Back-end: [Back-end](udagram-api-dev.us-east-1.elasticbeanstalk.com)
-- RDS for Database : [Postgres Database](udagram.ctcmmtv0jzoe.us-east-1.rds.amazonaws.com)
+- S3 for Front-end url: `http://khoatda-udagram.s3-website-us-east-1.amazonaws.com/`
+- Elastic Beanstalk for Back-end: `udagram-api-dev.us-east-1.elasticbeanstalk.com`
+- RDS for Database : `udagram.ctcmmtv0jzoe.us-east-1.rds.amazonaws.com`
 - Database post: 5432
 
 ### Environment variable
-Config database:
+```
+Config postgres database
   - POSTGRES_USERNAME
   - POSTGRES_PASSWORD
   - POSTGRES_DB
   - POSTGRES_HOST
-Config AWS:
-  - AWS_REGION,
-  - AWS_PROFILE,
-  - AWS_BUCKET,
-  - AWS_ACCESS_KEY_ID,
-  - AWS_SECRET_ACCESS_KEY,
-Config Url and secret key password:
-  - URL,
-  - JWT_SECRET,
-
+Config AWS
+  - AWS_REGION
+  - AWS_PROFILE
+  - AWS_BUCKET
+  - AWS_ACCESS_KEY_ID
+  - AWS_SECRET_ACCESS_KEY
+Config url and secret key
+  - URL
+  - JWT_SECRET
+```
 ### Circle CI configure
 - See config config.yml [here](config.yml)
 
