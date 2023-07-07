@@ -1,8 +1,6 @@
 # Hosting a Full-Stack Application
 # Udagram
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
-
 ### Dependencies
 
 ```
@@ -17,7 +15,28 @@ This application is provided to you as an alternative starter project if you do 
 - A S3 bucket for hosting uploaded pictures.
 
 ```
+### Endpoint
+- S3 for Front-end url: [Front-end](http://khoatda-udagram.s3-website-us-east-1.amazonaws.com/)
+- Elastic Beanstalk for Back-end: [Back-end](udagram-api-dev.us-east-1.elasticbeanstalk.com)
+- RDS for Database : [Postgres Database](udagram.ctcmmtv0jzoe.us-east-1.rds.amazonaws.com)
+- Database post: 5432
 
+### Environment variable
+Config database:
+  - POSTGRES_USERNAME
+  - POSTGRES_PASSWORD
+  - POSTGRES_DB
+  - POSTGRES_HOST
+Config AWS:
+  - AWS_REGION,
+  - AWS_PROFILE,
+  - AWS_BUCKET,
+  - AWS_ACCESS_KEY_ID,
+  - AWS_SECRET_ACCESS_KEY,
+Config Url and secret key password:
+  - URL,
+  - JWT_SECRET,
+  
 ### Installation
 
 Provision the necessary AWS services needed for running the application:
