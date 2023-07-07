@@ -36,7 +36,10 @@ Config AWS:
 Config Url and secret key password:
   - URL,
   - JWT_SECRET,
-  
+
+### Circle CI configure
+- See config config.yml [here](config.yml)
+
 ### Installation
 
 Provision the necessary AWS services needed for running the application:
