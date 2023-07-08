@@ -39,7 +39,7 @@ Config url and secret key
   - JWT_SECRET
 ```
 ### Circle CI configure
-- See config config.yml [here](config.yml)
+- See config config.yml [here](./Pipeline/config.yml)
 
 ### Installation
 
